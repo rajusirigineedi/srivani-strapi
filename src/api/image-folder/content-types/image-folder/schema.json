@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "image_folders",
+  "info": {
+    "singularName": "image-folder",
+    "pluralName": "image-folders",
+    "displayName": "ImageFolder",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "folder": {
+      "type": "text",
+      "required": true,
+      "default": "Folder Name",
+      "unique": true
+    },
+    "title": {
+      "type": "text",
+      "default": "Event happened at Srivani Global School.",
+      "required": true
+    },
+    "images": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::image.image",
+      "mappedBy": "image_folder"
+    }
+  }
+}

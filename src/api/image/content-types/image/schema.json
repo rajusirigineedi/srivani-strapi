@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "images",
+  "info": {
+    "singularName": "image",
+    "pluralName": "images",
+    "displayName": "Image",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true,
+      "default": "An Image of Srivani global school"
+    },
+    "info": {
+      "type": "text",
+      "default": "No information has been provided for this picture. Srivani global school"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "image_folder": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::image-folder.image-folder",
+      "inversedBy": "images"
+    }
+  }
+}
