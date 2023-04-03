@@ -1,5 +1,11 @@
 module.exports = ({ env }) => ({
-  // ...
+  graphql: {
+    enabled: true,
+    config: {
+      endpoint: "/graphql",
+      playgroundAlways: true,
+    },
+  },
   upload: {
     config: {
       provider: "cloudinary",
