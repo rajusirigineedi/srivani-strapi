@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "LandingPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MainHeading": {
+      "type": "text",
+      "required": true
+    },
+    "MainSubtitle": {
+      "type": "text",
+      "required": true
+    },
+    "CarouselImages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::image.image"
+    },
+    "NotificationString": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "acheivement_sections",
+  "info": {
+    "singularName": "acheivement-section",
+    "pluralName": "acheivement-sections",
+    "displayName": "AcheivementSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "ContentImageLilst": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::image.image"
+    }
+  }
+}

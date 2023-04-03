@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "special_screens",
+  "info": {
+    "singularName": "special-screen",
+    "pluralName": "special-screens",
+    "displayName": "SpecialScreen"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "FullImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SpecialCard": {
+      "displayName": "SpecialCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "special-card.special-card"
+    }
+  }
+}

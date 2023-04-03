@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "comment_sections",
+  "info": {
+    "singularName": "comment-section",
+    "pluralName": "comment-sections",
+    "displayName": "CommentSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "CommentCard": {
+      "displayName": "CommentCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "comment-card.comment-card"
+    }
+  }
+}

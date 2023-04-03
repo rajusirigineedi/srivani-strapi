@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_special_card_special_cards",
+  "info": {
+    "displayName": "SpecialCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

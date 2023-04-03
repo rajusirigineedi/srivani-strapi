@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_comment_card_comment_cards",
+  "info": {
+    "displayName": "CommentCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "comment": {
+      "type": "text"
+    }
+  }
+}

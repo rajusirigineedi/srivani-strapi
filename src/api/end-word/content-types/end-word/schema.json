@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "end_words",
+  "info": {
+    "singularName": "end-word",
+    "pluralName": "end-words",
+    "displayName": "EndWord"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}
