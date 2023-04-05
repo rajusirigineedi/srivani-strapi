@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "aceivements_pages",
+  "info": {
+    "singularName": "aceivements-page",
+    "pluralName": "aceivements-pages",
+    "displayName": "AcheivementsPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "CarouselImages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::image.image"
+    }
+  }
+}

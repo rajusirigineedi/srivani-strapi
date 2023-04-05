@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "AboutUs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "videoUrl": {
+      "type": "text"
+    },
+    "fblink": {
+      "type": "text"
+    },
+    "ytlink": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
