@@ -12,18 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "text",
-      "required": true
-    },
-    "subtitle": {
-      "type": "text",
-      "required": true
-    },
     "ContentImageLilst": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::image.image"
+    },
+    "BigTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "big-title.big-title"
     }
   }
 }

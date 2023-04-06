@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_big_title_big_titles",
+  "info": {
+    "displayName": "BigTitle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "colorIndex": {
+      "displayName": "NumberArray",
+      "type": "component",
+      "repeatable": true,
+      "component": "number-array.number-array"
+    }
+  }
+}

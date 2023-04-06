@@ -4,28 +4,29 @@
   "info": {
     "singularName": "campus-page",
     "pluralName": "campus-pages",
-    "displayName": "CampusPage"
+    "displayName": "CampusPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "text"
-    },
-    "subtitle": {
-      "type": "text"
-    },
     "campusImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "description": {
       "type": "text"
+    },
+    "BigTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "big-title.big-title"
     }
   }
 }

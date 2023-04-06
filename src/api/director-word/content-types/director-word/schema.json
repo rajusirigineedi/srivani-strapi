@@ -4,24 +4,24 @@
   "info": {
     "singularName": "director-word",
     "pluralName": "director-words",
-    "displayName": "DirectorWord"
+    "displayName": "DirectorWord",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "text"
-    },
-    "subtitle": {
-      "type": "text"
-    },
     "DirectorCard": {
       "displayName": "DirectorCard",
       "type": "component",
       "repeatable": true,
       "component": "director-card.director-card"
+    },
+    "BigTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "big-title.big-title"
     }
   }
 }

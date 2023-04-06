@@ -27,6 +27,9 @@
     },
     "NotificationString": {
       "type": "text"
+    },
+    "MainHeading2": {
+      "type": "text"
     }
   }
 }

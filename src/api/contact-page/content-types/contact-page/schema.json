@@ -4,31 +4,31 @@
   "info": {
     "singularName": "contact-page",
     "pluralName": "contact-pages",
-    "displayName": "ContactPage"
+    "displayName": "ContactPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "text"
-    },
-    "subtitle": {
-      "type": "text"
-    },
-    "locationTitle": {
-      "type": "text"
-    },
-    "locationSubtitle": {
-      "type": "text"
-    },
     "locationImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "ContactTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "big-title.big-title"
+    },
+    "LocationTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "big-title.big-title"
     }
   }
 }
